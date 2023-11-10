@@ -54,3 +54,14 @@ leftbtntwo.addEventListener("click",function(){
     }
     document.querySelector(".slider-product-one-content-items-content").style.right=index *100+"%"
 })
+// JavaScript
+var img = document.querySelector('.scroll-image');
+var img1 = document.querySelector('.scroll-image1');
+var imgTop = img.offsetTop;
+var imgTop1 = img1.offsetTop;
+window.addEventListener('scroll', function() {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  img.style.top = (imgTop +scrollTop) + 'px';
+  img1.style.top = (imgTop1 +scrollTop) + 'px';
+});
+

@@ -16,7 +16,7 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#"><img width="130px" src="image/logo.webp " alt=""></a></li>
+                <li><a href="index.html"><img width="130px" src="image/fpt-shop.webp " alt=""></a></li>
                 <li id="adress-form"><a href="#">HaNoi<i class="fa-solid fa-sort-down"></i></a></li>
                 <li><input type="text" placeholder="Ban dang tim gi"><i  class="fa-solid fa-magnifying-glass"></i></li>
                 <li><a href="#"></a><button><i class="fa-solid fa-cart-shopping"></i>Gio Hang</button></li>
@@ -181,25 +181,29 @@
             </div>
          </div>
     </section>
+    <img src="image/halloween-sticky_4642c1c7b7324034a8ec8b96e22ddb25.webp" class="scroll-image" alt="Scrolling Image">
+    <img id="scroll-image1" src="image/side_web__1__624412a83eea4c8c82d8e7639a7c9567.webp" class="scroll-image1" alt="Scrolling Image" >
     <!---------------------------------------------------------->
     <section class="product">
         <div class="container">
             <div class="product-top row">
                 <ul>
-                    <li><a href="">Trang Chu</a>  /  <a href="">LapTop</a> /  Laptop Acer Aspire 3 A315 59 321N</li>
+                    <li><a href="index.html">Trang Chu</a>  /  <a href="categorygieucapvippro.html">LapTop</a> /  Laptop Acer Aspire 3 A315 59 321N</li>
                 </ul>
             </div>
             <div class="product-content row">
                 <div class="product-content-left row ">
                     <div class="product-content-left-big-img">
-                        <img src="image/lap1.webp" alt="">
+                        <img id="largeImage" src="image/lap1.webp" alt=""class="lap1main">
+                        <div class="product-content-left-small-img">
+                            <img id="largeImage" src="image/lap1.webp" alt=""class="lap1main" alt=""onclick="changeImage(this)">
+                            <img class="smallImage" src="image/lap1.1.webp" alt=""onclick="changeImage(this)">
+                            <img class="smallImage"src="image/lap1.2.webp" alt=""onclick="changeImage(this)">
+                            <img class="smallImage"src="image/lap1.3.webp" alt=""onclick="changeImage(this)">
+                            <img class="smallImage"src="image/lap1.4.webp" alt=""onclick="changeImage(this)">
+                        </div>
                     </div>
-                    <div class="product-content-left-small-img">
-                        <img src="image/lap1.1.webp" alt="">
-                        <img src="image/lap1.2.webp" alt="">
-                        <img src="image/lap1.3.webp" alt="">
-                        <img src="image/lap1.4.webp" alt="">
-                    </div>
+                    
                 </div>
                 <div class="product-content-right">
                     <div class="product-content-right-name">
@@ -211,7 +215,7 @@
                             <i class="fa-regular fa-star" style="color: #d58907;"></i>
                             <a href="" style="color: blue;"> Xem Danh Gia</a>
                         </p>
-                        <li><b style="color: red; font-size: 30px;">11.990.000</b><sup style="color: red;">₫</sup></li>
+                        <li><b class="total-price" style="color: red; font-size: 30px;">11.990.000</b><sup style="color: red;">₫</sup></li>
                         <li style="text-decoration: line-through;">14.290.000<sup>₫</sup></li>
                     </div>
                     <div class="product-content-right-buy">
@@ -409,9 +413,12 @@
                     </table>
                     
                 </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UeGsp6Tw4as?si=6mzc74I17K25kVAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
+        
     </section>
+    
     <footer>
         <div class="row">
             
@@ -455,4 +462,7 @@
         </div>  
         <hr>
     </footer>
+    <script src="product.js"></script>
+</body> 
+</html>
     
